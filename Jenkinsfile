@@ -3,7 +3,7 @@ def run(cmd) { if (isUnix()) { sh cmd } else { bat cmd } }
 pipeline {
   agent any
   environment {
-    REGISTRY = 'hlwjenk15.azurecr.io'
+    REGISTRY = 'sampadaacr415.azurecr.io'
     IMAGE    = 'hello-jenkins'
   }
   stages {
